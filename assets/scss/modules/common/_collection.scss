@@ -2,7 +2,7 @@
 //  COLLECTION
 // ============================================
 
-@use "../../../abstracts" as *;
+@use "../../abstracts/index" as *;
 
 .collection {
   padding-block: $space-section;

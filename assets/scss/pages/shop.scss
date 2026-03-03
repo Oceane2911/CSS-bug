@@ -5,3 +5,6 @@
 @use "../abstracts" as *;
 @use "../modules/common/newsletter";
 @use "../modules/sections/shop/shop";
+@use "../modules/common/collection";
+
+@use "../base/global";

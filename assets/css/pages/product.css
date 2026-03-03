@@ -50,7 +50,7 @@
   margin-top: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .newsletter__form {
     flex-direction: row;
   }
@@ -449,7 +449,7 @@
   gap: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .product-detail__inner {
     grid-template-columns: 1fr 1fr;
   }
@@ -460,7 +460,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .product-detail__inner {
     grid-template-columns: 1fr 1fr;
     gap: 6rem;

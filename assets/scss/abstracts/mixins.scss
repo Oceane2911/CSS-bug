@@ -4,14 +4,14 @@
 
 /// Breakpoint tablet (>= 768px)
 @mixin tablet {
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     @content;
   }
 }
 
 /// Breakpoint desktop (>= 1200px)
 @mixin desktop {
-  @media (max-width: 1200px) {
+  @media (min-width: 1200px) {
     @content;
   }
 }
