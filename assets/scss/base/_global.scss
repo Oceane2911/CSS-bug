@@ -5,6 +5,8 @@
 @use "../modules/common/button";
 @use "../modules/layout/navbar";
 @use "../modules/layout/footer";
+@use "../abstracts/index" as *;
+
 
 body {
   font-family: $font-main;

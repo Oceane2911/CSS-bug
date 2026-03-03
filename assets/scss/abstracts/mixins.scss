@@ -10,7 +10,7 @@
 }
 
 /// Breakpoint desktop (>= 1200px)
-@mixin desktp {
+@mixin desktop {
   @media (max-width: 1200px) {
     @content;
   }
