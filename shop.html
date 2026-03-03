@@ -22,23 +22,23 @@
     <!-- ==========================================
        NAVBAR
     =========================================== -->
-    <nav class="navbar" id="haut">
+    <nav class="navbar" id="accueil">
       <div class="container">
-        <a href="index.html" class="navbar__logo">STEP<span>FORGE</span></a>
+        <a href="index.html" class="navbar__logo" role="button">STEP<span>FORGE</span></a>
 
         <ul class="navbar__links">
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="shop.html">Boutique</a></li>
-          <li><a href="index.html#a-propos">&Agrave; propos</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html" role="link">Accueil</a></li>
+          <li><a href="shop.html" role="link">Boutique</a></li>
+          <li><a href="#a-propos" role="link">&Agrave; propos</a></li>
+          <li><a href="#contact" role="link">Contact</a></li>
         </ul>
 
         <div class="navbar__actions">
-          <a href="#" class="navbar__cart">
+          <a href="#" class="navbar__cart" aria-label="panier">
             <ion-icon name="bag-handle-outline"></ion-icon>
             <span class="navbar__cart-badge">3</span>
           </a>
-          <button class="navbar__burger">
+          <button class="navbar__burger" aria-label="menu burger">
             <ion-icon name="menu-outline"></ion-icon>
           </button>
         </div>
@@ -108,7 +108,7 @@
               />
               <span class="product-card__tag">Nouveau</span>
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </a>
             <div class="product-card__body">
@@ -135,7 +135,7 @@
                 alt="Urban Drift Pro"
               />
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </a>
             <div class="product-card__body">
@@ -163,7 +163,7 @@
               />
               <span class="product-card__tag">Tendance</span>
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </a>
             <div class="product-card__body">
@@ -172,8 +172,8 @@
                 <a href="product.html">Blaze High OG</a>
               </h3>
               <div class="product-card__price">
-                <span class="product-card__price-current">249&nbsp;&euro;</span>
-                <span class="product-card__price-old">299&nbsp;&euro;</span>
+                <span class="product-card__price-current" aria-label="nouveau prix">249&nbsp;&euro;</span>
+                <span class="product-card__price-old" aria-label="ancien prix">299&nbsp;&euro;</span>
               </div>
               <button class="product-card__btn">
                 <ion-icon name="bag-add-outline"></ion-icon>
@@ -191,7 +191,7 @@
                 alt="Stealth Low V2"
               />
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </a>
             <div class="product-card__body">
@@ -221,7 +221,7 @@
                 >&Eacute;dition limit&eacute;e</span
               >
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </a>
             <div class="product-card__body">
@@ -248,7 +248,7 @@
                 alt="Volt Street Max"
               />
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </a>
             <div class="product-card__body">
@@ -257,8 +257,8 @@
                 <a href="product.html">Volt Street Max</a>
               </h3>
               <div class="product-card__price">
-                <span class="product-card__price-current">199&nbsp;&euro;</span>
-                <span class="product-card__price-old">239&nbsp;&euro;</span>
+                <span class="product-card__price-current" aria-label="nouveau prix">199&nbsp;&euro;</span>
+                <span class="product-card__price-old" aria-label="ancien prix">239&nbsp;&euro;</span>
               </div>
               <button class="product-card__btn">
                 <ion-icon name="bag-add-outline"></ion-icon>
@@ -277,7 +277,7 @@
               />
               <span class="product-card__tag">Nouveau</span>
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </a>
             <div class="product-card__body">
@@ -304,7 +304,7 @@
                 alt="Neon Pulse Low"
               />
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </a>
             <div class="product-card__body">
@@ -313,8 +313,8 @@
                 <a href="product.html">Neon Pulse Low</a>
               </h3>
               <div class="product-card__price">
-                <span class="product-card__price-current">159&nbsp;&euro;</span>
-                <span class="product-card__price-old">189&nbsp;&euro;</span>
+                <span class="product-card__price-current" aria-label="nouveau prix">159&nbsp;&euro;</span>
+                <span class="product-card__price-old" aria-label="ancien prix">189&nbsp;&euro;</span>
               </div>
               <button class="product-card__btn">
                 <ion-icon name="bag-add-outline"></ion-icon>
@@ -333,7 +333,7 @@
               />
               <span class="product-card__tag">Tendance</span>
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </a>
             <div class="product-card__body">
@@ -446,16 +446,16 @@
             <h4 class="footer__col-title">Suivez-nous</h4>
             <div class="footer__social">
               <a href="#">
-                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-instagram" aria-label="logo instagram"></ion-icon>
               </a>
               <a href="#">
-                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-twitter" aria-label="logo twitter"></ion-icon>
               </a>
               <a href="#">
-                <ion-icon name="logo-tiktok"></ion-icon>
+                <ion-icon name="logo-tiktok" aria-label="logo tiktok"></ion-icon>
               </a>
               <a href="#">
-                <ion-icon name="logo-youtube"></ion-icon>
+                <ion-icon name="logo-youtube" aria-label="logo youtube"></ion-icon>
               </a>
             </div>
           </div>

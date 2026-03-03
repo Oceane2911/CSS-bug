@@ -22,23 +22,23 @@
     <!-- ==========================================
        NAVBAR
     =========================================== -->
-    <nav class="navbar" id="haut">
+    <nav class="navbar" id="accueil">
       <div class="container">
-        <a href="index.html" class="navbar__logo">STEP<span>FORGE</span></a>
+        <a href="index.html" class="navbar__logo" role="button">STEP<span>FORGE</span></a>
 
         <ul class="navbar__links">
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="shop.html">Collection</a></li>
-          <li><a href="index.html#a-propos">&Agrave; propos</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html" role="link">Accueil</a></li>
+          <li><a href="shop.html" role="link">Boutique</a></li>
+          <li><a href="#a-propos" role="link">&Agrave; propos</a></li>
+          <li><a href="#contact" role="link">Contact</a></li>
         </ul>
 
         <div class="navbar__actions">
-          <a href="#" class="navbar__cart">
+          <a href="#" class="navbar__cart" aria-label="panier">
             <ion-icon name="bag-handle-outline"></ion-icon>
             <span class="navbar__cart-badge">3</span>
           </a>
-          <button class="navbar__burger">
+          <button class="navbar__burger" aria-label="menu burger">
             <ion-icon name="menu-outline"></ion-icon>
           </button>
         </div>
@@ -160,11 +160,11 @@
             <!-- Actions -->
             <div class="product-actions">
               <button class="btn btn--primary">
-                <ion-icon name="bag-add-outline"></ion-icon>
+                <ion-icon name="bag-add-outline" aria-label="panier"></ion-icon>
                 Ajouter au panier
               </button>
               <button class="product-actions__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
                 Ajouter aux favoris
               </button>
             </div>
@@ -391,7 +391,7 @@
 
               />
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </div>
             <div class="product-card__body">
@@ -401,7 +401,7 @@
                 <span class="product-card__price-current">219&nbsp;&euro;</span>
               </div>
               <button class="product-card__btn">
-                <ion-icon name="bag-add-outline"></ion-icon>
+                <ion-icon name="bag-add-outline" aria-label="panier"></ion-icon>
                 Ajouter au panier
               </button>
             </div>
@@ -416,7 +416,7 @@
               />
               <span class="product-card__tag">Tendance</span>
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </div>
             <div class="product-card__body">
@@ -427,7 +427,7 @@
                 <span class="product-card__price-old">299&nbsp;&euro;</span>
               </div>
               <button class="product-card__btn">
-                <ion-icon name="bag-add-outline"></ion-icon>
+                <ion-icon name="bag-add-outline" aria-label="panier"></ion-icon>
                 Ajouter au panier
               </button>
             </div>
@@ -444,7 +444,7 @@
                 >&Eacute;dition limit&eacute;e</span
               >
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </div>
             <div class="product-card__body">
@@ -454,7 +454,7 @@
                 <span class="product-card__price-current">279&nbsp;&euro;</span>
               </div>
               <button class="product-card__btn">
-                <ion-icon name="bag-add-outline"></ion-icon>
+                <ion-icon name="bag-add-outline" aria-label="panier"></ion-icon>
                 Ajouter au panier
               </button>
             </div>
@@ -468,7 +468,7 @@
 
               />
               <button class="product-card__wishlist">
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="heart-outline" aria-label="like"></ion-icon>
               </button>
             </div>
             <div class="product-card__body">
@@ -478,7 +478,7 @@
                 <span class="product-card__price-current">169&nbsp;&euro;</span>
               </div>
               <button class="product-card__btn">
-                <ion-icon name="bag-add-outline"></ion-icon>
+                <ion-icon name="bag-add-outline" aria-label="panier"></ion-icon>
                 Ajouter au panier
               </button>
             </div>
@@ -563,16 +563,16 @@
             <h4 class="footer__col-title">Suivez-nous</h4>
             <div class="footer__social">
               <a href="#">
-                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-instagram" aria-label="logo instagram"></ion-icon>
               </a>
               <a href="#">
-                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-twitter" aria-label="logo twitter"></ion-icon>
               </a>
               <a href="#">
-                <ion-icon name="logo-tiktok"></ion-icon>
+                <ion-icon name="logo-tiktok" aria-label="logo tiktok"></ion-icon>
               </a>
               <a href="#">
-                <ion-icon name="logo-youtube"></ion-icon>
+                <ion-icon name="logo-youtube" aria-label="logo youtube"></ion-icon>
               </a>
             </div>
           </div>
